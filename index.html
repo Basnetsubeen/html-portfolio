@@ -47,16 +47,19 @@
           <div class="collapse navbar-collapse nav-font" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
               </li>
             </ul>
            
@@ -66,27 +69,25 @@
 
       <div class="container mt-5">
           <div class="row">
-            <div class="col-md-5 text-center order-md-2">
-                <img src="./assets/my_photo.jpg" height="280" width="80%" alt="">
+            <div class="col-md-5 text-center order-md-2 img">
+                <img src="./assets/Subeen.png" height="350" width="130%" alt="">
             </div>
               <div class="col-md-7 mt-5">
             Hi, 👋 i'm
             <div class="fs-1 fw-bolder mb-4">Subin Basnet</div>
-            <p>I’m a software developer working 
-                in Australia.</p>
-                <button class="btn btn-danger">Download Resume <i class="fa-solid fa-download"></i></button>
+            <p>Fullstack developer desperately looking for a job</p>
+                <a href="./assets/cv.pdf" class="btn btn-danger" download
+                >Download CV <i class="fa-solid fa-download"></i></i></a
+              >
               </div>
            
           </div>
       </div>
 
-
-
-
-
 </div>
-   <!-- skills section -->
-<div class="container">
+   <!-- skillsection -->
+   <div id="skills">
+    <div class="container skills">
     <div class="row mt-5">
         <div class="col">
 
@@ -99,6 +100,9 @@
             <!-- icons -->
             <div class="icons fw-bolder d-flex flex-wrap justify-content-around">
                 <div><i class="fa-brands fa-html5 text-danger"></i>HTML5</div>   
+            <div>
+              <i class="fa-brands fa-react text-primary"></i>React
+            </div>
             <div>
                 <i class="fa-brands fa-css3-alt text-primary"></i>CSS3
             </div>
@@ -119,7 +123,9 @@
 </div>
 </div>
 
+
    <!-- project section -->
+   <div id="projects">
 <section class="projects py-5">
     <div class="container">
          <!-- title -->
@@ -179,57 +185,122 @@
 </section>
 
    <!-- About Me section -->
-<div class="container about mt-5 py-5">
+   <div id="about">
+   <section class="about">
+<div class="container  mt-0 py-5">
  <!-- title -->
  <div class="title mb-2">
     <span>About Me</span>
      </div>
-<div class="row mt-5 text-light">
+<div class="row mt-5 text-dark">
     <div class="col text-center">
-<img src="./assets/about.JPG" width="70%"alt="">
+<img src="./assets/about.JPG" width="50%"alt="">
     </div>
     <div class="col">
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit dolor natus repellat sunt facere placeat!
+<p>Passionate IT graduate from Southern Cross University Australia with an excellent grade. Seeking to use proven skills in HTML, CSS, Javascript, React, NodeJs, Express, MongoDB, AWS,  Database, and cloud computing to meet the business goals of the company. I might be young in this industry but I have done Bootcamp from Dented Code Academy and have acquired critical thinking and analyzing capabilities which help to solve critical problems. I am a competitive and progressive person who desires to learn and upgrade to work efficiently every single day.
 </p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae laudantium ratione, voluptatibus facilis reprehenderit!</p>
+
     </div>
 </div>
 </div>
+   </section>
+  </div>
+    
+    
+    
    <!-- Contact section -->
-   <div class="container mt-3">
-    <div class="title mb-2">
-        <span>Contact Me</span>
-         </div>
-         <div class="row fa-5x pt-3">
-             <div class="col d-flex justify-content-around">
-                <a href=""><i class="fa-brands fa-github text-warning"></i></a>
-                
-                 <a href=""><i class="fa-brands fa-facebook"></i></a>
-                 <a href=""><i class="fa-brands fa-instagram text-danger"></i></a>
-                 <a href="mailto:myemail@com"><i class="fa-solid fa-envelope"></i></a>
-                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                 
-               
-
-                
-             </div>
-         </div>
+   <div id="contact">
+    <section class= "contact">
+      <div class="container contact_container mt-0">
+       <div class="title py-5">
+           <span>Contact Me</span>
+            </div>
+       <div class="row mt-3">
+         <div class="col">    
+           <div class="contact__left">
+           <h2 class="text-center mt-5">Let's Talk</h2>
+           <ul class="contact__socials mt-5">
+             <li>
+               <a href="https://www.instagram.com/" target="_blank"
+                 ><i class="fa-brands fa-instagram fa-4x text-danger"></i
+               ></a>
+             </li>
+             <li>
+               <a href="https://www.facebook.com" target="_blank"
+                 ><i class="fa-brands fa-facebook fa-4x text-primary"></i
+               ></a>
+             </li>
+             <li>
+               <a
+                 href="https://www.linkedin.com/in/subin-basnet-855b25222/"
+                 target="_blank"
+                 ><i class="fa-brands fa-linkedin fa-4x text-primary"></i
+               ></a>
+             </li>
+             <li>
+               <a href="https://github.com/Basnetsubeen" target="_blank"
+                 ><i class="fa-brands fa-github fa-4x"></i
+               ></a>
+             </li>
+             <li>
+               <a href="mailto:myemail@com"><i class="fa-solid fa-envelope fa-4x text-primary"></i></a>
+             </li>
+   
+           </ul>
+         </div></div>
+         <div class="col mb-3"> 
+           <form onSubmit="sendEmail()">
+           <input type="text" name="name" placeholder="Your Name" required />
+           <input type="email" name="email" placeholder="Your Email" required />
+           <textarea
+             name="message"
+             rows="6"
+             placeholder="Message"
+             required
+           ></textarea>
+           <button type="submit" class="btn btn-primary fw-bolder fa-2x ">
+             Send
+           </button>
+         </form>
+       </div>
+       </div>    
+            </div>
+      </section>
    </div>
+ 
+  
 
    <!-- footer section -->
 
-   <div class="footer bg-dark text-light text-center p-5 mt-5">
-    copyright &copy; all reserved! Made with💕 by me !!
+   <div class="footer bg-dark text-light text-center p-5 mt-0">
+    copyright &copy; all reserved! Made with 💕 by me !!
    </footer>
    </div>
 </div>
-</div>
 
     <!-- javascript -->
-    <script
+
+    <!-- <script 
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
-    ></script>
+    >
+    </script> -->
+    <script src = "https://smtpjs.com/v3.smtp.js"></script>
+    <script>
+  function sendEmail(){
+    Email.send({
+      Host: "smtp.gmail.com",
+      UserName: "basnetsubeen@gmail.com",
+      Password: "1234",
+      To: "basnetsubeen@gmail.com",
+      From: document.getElementById("email").value,
+    Subject: "New Contact Form Enquiry",
+    Body:"And this is the body"
+    }).then(
+      message=> alert(message)
+    );
+  }
+  </script> 
   </body>
 </html>
